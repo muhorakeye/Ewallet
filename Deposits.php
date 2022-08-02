@@ -65,9 +65,9 @@
             <p>We have more amzing welcome Bonus just signup to our website and see the magic.</p>
         </div>
         <div class="navbar">
-            <a href="index.html">HOME</a>
+            <a href="index.php">HOME</a>
             <a href="transaction.php">LOGIN</a>
-            <a href="contact.html">CONTACT-US</a>
+            <a href="contact.php">CONTACT-US</a>
         </div>
         <div class="bg-img">
             <form action="deposit.php" method="POST" class="container">
@@ -78,17 +78,17 @@
                 <hr>
 
                 <label for="text"><b>Amount</b></label>
-                <input type="text" placeholder="Enter Amount of money to Deposit" name="Amount" required>
+                <input type="text" placeholder="Enter Amount of money to Deposit" name="amount" required>
 
                 <label for="text"><b>Name</b></label>
-                <input type="text" placeholder="Enter Account_name" name="Name" required>
+                <input type="text" placeholder="Enter Account_name" name="name" required>
                     
                 <label for="text"><b>Pin</b></label>
-                <input type="text" placeholder="Enter your Pin" name="Pin" required>
+                <input type="text" placeholder="Enter your Pin" name="pin" required>
 
                
-                <button type="submit" name="" class="submit"onclick="balance()">Deposit</button>
-                <button type="button" class="cancelbtn"onclick="closeForm()">Cancel</button>
+                <button type="submit" name="deposit" class="submit">Deposit</button>
+                <button type="button" class="cancelbtn">Cancel</button>
             </form>
         </div>
     </div>

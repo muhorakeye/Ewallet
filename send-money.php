@@ -65,9 +65,9 @@
             <p>We have more amzing welcome Bonus just signup to our website and see the magic.</p>
         </div>
         <div class="navbar">
-            <a href="index.html">HOME</a>
-            <a href="Login.html">LOGIN</a>
-            <a href="contact.html">CONTACT-US</a>
+            <a href="index.php">HOME</a>
+            <a href="Login.php">LOGIN</a>
+            <a href="contact.php">CONTACT-US</a>
         </div>
         <div class="bg-img">
             <form action="action_page.php" class="container">
@@ -77,16 +77,13 @@
                 <input type="text" placeholder="Enter account_number" name="account_number" required>
 
                 <label for="email"><b>Account Holder name</b></label>
-                <input type="text" placeholder="Enter Account Holder name" name="Account Holder name" required>
+                <input type="text" placeholder="Enter Account Holder name" name="account Holder name" required>
 
                 <label for="text"><b>Amount</b></label>
-                <input type="text" placeholder="Enter Amount" name="Amount" required>
+                <input type="text" placeholder="Enter Amount" name="amount" required>
                     
-                <label for="text"><b>Pin-number</b></label>
-                <input type="text" placeholder="Enter Pin-number" name="Pin-number" required>
-    
-                <button type="submit" class="submit"onclick="balance()">Transfer</button>
-                <button type="button" class="cancelbtn"onclick="closeForm()">Cancel</button>
+                <button type="submit" class="submit">Transfer</button>
+                <button type="button" class="cancelbtn">Cancel</button>
             </form>
         </div>
     </div>

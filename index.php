@@ -84,26 +84,26 @@ include'client.php';
     </div>
     <div class="bg-img">
       <div class="form-popup" id="myForm">
-        <form action="client.php" method="post" class="container">
+        <form action="Register.php" method="post" class="container">
             <h1>Sign Up Here Plz</h1>
             <hr>
 
             <label for="Names"><b>Names</b></label>
-            <input type="text" placeholder="Enter Names " name="Names" required>
+            <input type="text" placeholder="Enter Names " name="name" required>
 
             <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="Email" required>
+            <input type="text" placeholder="Enter Email" name="email" required>
 
             <label for="Telephone"><b>Telephone</b></label>
-            <input type="text" placeholder="Enter Telephone " name="Telephone" required>
+            <input type="text" placeholder="Enter Telephone " name="telephone" required>
 
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="Password" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
                 
             <label for="pin"><b>Pin</b></label>
-            <input type="text" placeholder="Pin" name="Pin" required>
+            <input type="text" placeholder="Pin" name="pin" required>
 
-            <button type="submit" class="signupbtn"onclick="balance()">Signup</button>
+            <button type="submit" class="signupbtn" name="signup">Signup</button>
             <button type="button" class="cancelbtn"onclick="closeForm()">Cancel</button>
         </form>
       </div>

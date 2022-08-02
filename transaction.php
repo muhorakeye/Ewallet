@@ -68,10 +68,10 @@
 
   </div>
   <div class="navbar">
-    <a href="index.html">HOME</a>
-    <a href="Login.html">LOGIN</a>
-    <a href="contact.html">CONTACT-US</a>
-    <a href="index.html" class="right">LOGOUT</a>
+    <a href="index.php">HOME</a>
+    <a href="Login.php">LOGIN</a>
+    <a href="contact.php">CONTACT-US</a>
+    <a href="index.php" class="right">LOGOUT</a>
 </div>
 
 <div class="bg-img">
@@ -82,8 +82,8 @@
           <td>RWF1000</td>
         </tr>
         <a href="send-money.php"><button type="button" class="btn btn-outline-light">Transfer</button></a>
-        <a href="Deposit.php"><button type="button" class="btn btn-outline-light">Deposit</button></a>
-        <a href="transaction.php"><button type="button" class="btn btn-outline-light">Transaction</button></a>
+        <a href="Deposits.php"><button type="button" class="btn btn-outline-light">Deposit</button></a>
+        <a href="trans.php"><button type="button" class="btn btn-outline-light">Transaction</button></a>
        
     </div>
 </div>

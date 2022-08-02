@@ -1,32 +1,28 @@
 <?php
-    $host="localhost";
-    $user="root";
-    $pass="";
-    $db="wallet";
+include('./client.php');
 
-    $conn=new mysqli($host,$user,$pass,$db);
-    if(!$conn)
+    //deposit
+if (isset($_POST["deposit"])) 
+{
+    $date=$_POST['date'];
+    $amount=$_POST['amount'];
+    $name=$_POST['name'];
+    $pin=$_POST['pin'];
+
+    var_dump($date, $amount, $name, $pin);
+
+
+    $sql = "INSERT INTO deposit (Date, Amount, Name, Pin) VALUES('$date','$amount','$name', '$pin')";
+
+    if($conn->query($sql)) 
     {
-      echo"there are ploblem";
-    }
-    else {
-        echo"connected";
-    }
-if(isset($_POST['submit'])){
 
-$date=$_POST['date'];
-$Amount=$_POST['Amount'];
-$Name=$_POST['Name'];
-$Pin=$_POST['Pin'];
+        header("location:transaction.php");
 
-$sql=("INSERT INTO account (date, Amount, Name, Pin) 
-VALUES ('$date','$Amount','$Name','$Pin')");
-$insert= mysqli_query($conn,$sql);
-if(!$insert){
-    echo"there are pronlem while inserting data";
-}
-else{
-    echo"data inserted successfully!";
-}
+    } else {
+        
+        exit("failed");
+        
+    }
 }
 ?>

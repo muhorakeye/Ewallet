@@ -71,30 +71,26 @@
             <p>We have more amzing welcome Bonus just signup to our website and see the magic.</p>
         </div>
         <div class="navbar">
-            <a href="index.html">HOME</a>
-            <a href="Login.html">LOGIN</a>
-            <a href="contact.html">CONTACT-US</a>
+            <a href="index.php">HOME</a>
+            <a href="Login.php">LOGIN</a>
+            <a href="contact.php">CONTACT-US</a>
         </div>
         <div class="bg-img">
-            <form action="account.php" method="POST" class="container">
+            <form action="register.php" method="POST" class="container">
                 <h1>transaction</h1>
                 <hr>
                 <table>
-                    <tr>
-                <td></td>
-                    <td>
-                        Transfered_Money
-                    </td>
-                    <td>
-                        Deposited_Money
-                    </td>
-                </tr> 
-                <tr>
-                        <td>Date</td>
-                    </tr>
-                <tr>
-             </table>   
-
+                       <tr>
+                         <td>Date</td>
+                         <td>
+                             Transfered_Money
+                          </td>
+                           <td>
+                              Deposited_Money
+                            </td>
+                        </tr>      
+                 </table>   
+             </form>
         </div>
     </div>
     <div class="footer">

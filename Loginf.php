@@ -69,19 +69,19 @@
   <div class="navbar">
     <a href="index.php">HOME</a>
     <a href="Loginf.php">LOGIN</a>
-    <a href="contact.html">CONTACT-US</a>
+    <a href="contact.php">CONTACT-US</a>
 </div>
   <div class="bg-img">
-    <form method="POST"action="login.php" class="container">
+    <form method="POST"action="Register.php" class="container">
       <h1>Login</h1>
   
       <label for="email"><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" required>
   
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <input type="password" placeholder="Enter Password" name="password" required>
   
-      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn" name="login">login</button>
     </form>
   </div>
   <div class="footer">
